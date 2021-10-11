@@ -1,0 +1,4 @@
+[submodule "yesming.github.io"]
+	path = yesming.github.io
+	url = https://github.com/yesming/yesming.github.io.git
+	branch = main
