@@ -1,1 +1,0 @@
-# yesming.github.io
