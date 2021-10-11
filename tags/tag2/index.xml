@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo tranquilpeak theme</title>
-    <link>https://yesming.github.io/</link>
-    <description>Recent content on Hugo tranquilpeak theme</description>
+    <title>tag2 on Hugo tranquilpeak theme</title>
+    <link>https://yesming.github.io/tags/tag2/</link>
+    <description>Recent content in tag2 on Hugo tranquilpeak theme</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Mon, 11 Oct 2021 21:59:27 +0900</lastBuildDate><atom:link href="https://yesming.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Oct 2021 21:59:27 +0900</lastBuildDate><atom:link href="https://yesming.github.io/tags/tag2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test</title>
       <link>https://yesming.github.io/post/test/</link>
