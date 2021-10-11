@@ -1,281 +1,363 @@
+
+  
+  
+
 <!DOCTYPE html>
-<html lang="ko-kr"><head>
-  <meta charset="utf-8">
-  <title>자율주행 개발자의 생각</title>
-
-  <!-- mobile responsive meta -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="This is meta description">
-  <meta name="author" content="Themefisher">
-  <meta name="generator" content="Hugo 0.88.1" />
-
-  <!-- plugins -->
-  
-  <link rel="stylesheet" href="https://yesming.github.io/plugins/bootstrap/bootstrap.min.css ">
-  
-  <link rel="stylesheet" href="https://yesming.github.io/plugins/slick/slick.css ">
-  
-  <link rel="stylesheet" href="https://yesming.github.io/plugins/themify-icons/themify-icons.css ">
-  
-  <link rel="stylesheet" href="https://yesming.github.io/plugins/venobox/venobox.css ">
-  
-
-  <!-- Main Stylesheet -->
-  
-  <link rel="stylesheet" href="https://yesming.github.io/scss/style.min.css" media="screen">
-
-  <!--Favicon-->
-  <link rel="shortcut icon" href="https://yesming.github.io/images/favicon.png " type="image/x-icon">
-  <link rel="icon" href="https://yesming.github.io/images/favicon.png " type="image/x-icon">
-
-  <!-- google analitycs -->
-  <script>
-    (function (i, s, o, g, r, a, m) {
-      i['GoogleAnalyticsObject'] = r;
-      i[r] = i[r] || function () {
-        (i[r].q = i[r].q || []).push(arguments)
-      }, i[r].l = 1 * new Date();
-      a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0];
-      a.async = 1;
-      a.src = g;
-      m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-    ga('create', 'G-289365635', 'auto');
-    ga('send', 'pageview');
-  </script>
-
-</head><body>
-<!-- preloader start -->
-<div class="preloader">
-  
-</div>
-<!-- preloader end -->
-<!-- navigation -->
-<header class="navigation">
-  <div class="container">
+<html lang="ko-kr">
+  <head>
     
-    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
-      <a class="navbar-brand mobile-view" href="https://yesming.github.io/"><img class="img-fluid"
-          src="https://yesming.github.io/images/logo.png" alt="자율주행 개발자의 생각"></a>
-      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
-        <i class="ti-menu"></i>
-      </button>
+    <script type="application/ld+json">
 
-      <div class="collapse navbar-collapse text-center" id="navigation">
-        <div class="desktop-view">
-          <ul class="navbar-nav mr-auto">
-            
-            <li class="nav-item">
-              <a class="nav-link" href="https://voracious-scowl-0b0.notion.site/Eunmin-Hwang-13216386b0a943398340579b3d7585af"><i class="ti-bookmark-alt"></i></a>
-            </li>
-            
-            <li class="nav-item">
-              <a class="nav-link" href="#"><i class="ti-instagram"></i></a>
-            </li>
-            
-            <li class="nav-item">
-              <a class="nav-link" href="yesming.github.io"><i class="ti-github"></i></a>
-            </li>
-            
-            <li class="nav-item">
-              <a class="nav-link" href="#"><i class="ti-linkedin"></i></a>
-            </li>
-            
-          </ul>
-        </div>
+{  
+  "@context":"http://schema.org",
+  "@type":"Website",
+  "@id":"https:\/\/yesming.github.io\/",
+  "author": {
+    "@type": "Person",
+    "name": "자율주행 개발자의 생각",
+    
+    "image": "https://www.gravatar.com/avatar/a834117ef995f2f87c2bc14d5b0a0978"
+    
+  },
+  "name":"Hugo tranquilpeak theme",
+  "description":"Hugo tranquilpeak theme demo",
+  "url":"https:\/\/yesming.github.io\/categories\/",
+  "keywords":"[]"
+}
 
-        <a class="navbar-brand mx-auto desktop-view" href="https://yesming.github.io/"><img class="img-fluid"
-            src="https://yesming.github.io/images/logo.png" alt="자율주행 개발자의 생각"></a>
+</script>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="generator" content="Hugo 0.88.1 with theme Tranquilpeak 0.5.3-BETA">
+<meta name="author" content="자율주행 개발자의 생각">
+<meta name="keywords" content="">
+<meta name="description" content="Hugo tranquilpeak theme demo">
 
-        <ul class="navbar-nav">
-          
-          
-          <li class="nav-item">
-            <a class="nav-link" href="https://yesming.github.io/about">About</a>
-          </li>
-          
-          
-          
-          <li class="nav-item">
-            <a class="nav-link" href="https://yesming.github.io/blog">Post</a>
-          </li>
-          
-          
-          
-          <li class="nav-item">
-            <a class="nav-link" href="https://yesming.github.io/contact">Contact</a>
-          </li>
-          
-          
-        </ul>
 
-        
-        <!-- search -->
-        <div class="search pl-lg-4">
-          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
-          <div class="search-wrapper">
-            <form action="https://yesming.github.io//search" class="h-100">
-              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
-            </form>
-            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
-          </div>
-        </div>
-        
+<meta property="og:description" content="Hugo tranquilpeak theme demo">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Categories">
+<meta name="twitter:title" content="Categories">
+<meta property="og:url" content="https://yesming.github.io/categories/">
+<meta property="twitter:url" content="https://yesming.github.io/categories/">
+<meta property="og:site_name" content="Hugo tranquilpeak theme">
+<meta property="og:description" content="Hugo tranquilpeak theme demo">
+<meta name="twitter:description" content="Hugo tranquilpeak theme demo">
+<meta property="og:locale" content="ko-kr">
 
-        
-      </div>
-    </nav>
+
+<meta name="twitter:card" content="summary">
+
+
+
+
+
+
+
+  <meta property="og:image" content="https://www.gravatar.com/avatar/a834117ef995f2f87c2bc14d5b0a0978?s=640">
+  <meta property="twitter:image" content="https://www.gravatar.com/avatar/a834117ef995f2f87c2bc14d5b0a0978?s=640">
+
+
+
+
+
+
+    <title>Categories</title>
+
+    <link rel="icon" href="https://yesming.github.io/favicon.png">
+    
+      <link rel="alternate" type="application/rss+xml" title="RSS" href="https://yesming.github.io/categories/index.xml">
+    
+
+    
+
+    <link rel="canonical" href="https://yesming.github.io/categories/">
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    
+    
+    <link rel="stylesheet" href="https://yesming.github.io/css/style-h6ccsoet3mzkbb0wngshlfbaweimexgqcxj0h5hu4h82olsdzz6wmqdkajm.min.css" />
+    
+    
+
+    
+      
+    
+    
+  </head>
+
+  <body>
+    <div id="blog">
+      <header id="header" data-behavior="1">
+  <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+  <div class="header-title">
+    <a class="header-title-link" href="https://yesming.github.io/" aria-label="">Hugo tranquilpeak theme</a>
   </div>
+  
+    
+      <a class="header-right-picture "
+         href="https://yesming.github.io/#about" aria-label="">
+    
+    
+    
+      
+        <img class="header-picture" src="https://www.gravatar.com/avatar/a834117ef995f2f87c2bc14d5b0a0978?s=90" alt="" />
+      
+    
+    </a>
+  
 </header>
-<!-- /navigation -->
+
+      <nav id="sidebar" data-behavior="1">
+  <div class="sidebar-container">
+    
+      <div class="sidebar-profile">
+        <a href="https://yesming.github.io/#about" aria-label="">
+          <img class="sidebar-profile-picture" src="https://www.gravatar.com/avatar/a834117ef995f2f87c2bc14d5b0a0978?s=110" alt="" />
+        </a>
+        <h4 class="sidebar-profile-name">자율주행 개발자의 생각</h4>
+        
+          <h5 class="sidebar-profile-bio">자율주행 알고리즘을 개발하며 드는 생각과 일상을 정리합니다</h5>
+        
+      </div>
+    
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://yesming.github.io/" title="Home">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-home" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Home</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://yesming.github.io/categories" title="Categories">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-bookmark" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Categories</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://yesming.github.io/tags" title="Tags">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-tags" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Tags</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://yesming.github.io/archives" title="Archives">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-archive" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Archives</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://yesming.github.io/#about" title="About">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-question" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">About</span>
+    </a>
+  </li>
 
 
-<section class="section-sm">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 mb-5 mb-lg-0">
-        <div class="row">
-          
-          
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://github.com/kakawait" target="_blank" rel="noopener" title="GitHub">
+    
+      <i class="sidebar-button-icon fab fa-lg fa-github" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">GitHub</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://stackoverflow.com/users/636472/kakawait" target="_blank" rel="noopener" title="Stack Overflow">
+    
+      <i class="sidebar-button-icon fab fa-lg fa-stack-overflow" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Stack Overflow</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://yesming.github.io/index.xml" title="RSS">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-rss" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">RSS</span>
+    </a>
+  </li>
+
+
+    </ul>
+  </div>
+</nav>
+
+      
+
+      <div id="main" data-behavior="1"
+        class="
+               hasCoverMetaIn
+               ">
+
+        <div id="categories-archives" class="main-content-wrap">
+          <form id="filter-form" action="##">
+            <input name="category" type="text" class="form-control input--xlarge"
+                   placeholder="" autofocus="autofocus">
+          </form>
+          <h5 class="archive-result text-color-base text-xlarge"
+              data-message-zero=""
+              data-message-one=""
+              data-message-other=""></h5>
+          <section class="boxes">
+            
+              
+            
+          </section>
+          <section class="boxes">
+            
+              
+            
+          </section>
         </div>
-      </div>
-      
-      <div class="col-lg-4">
-  <div class="widgets">
-    
-    <div class="widget">
-      
-    </div>
-    
-    <div class="widget">
-      <h4 class="widget-title">Category</h4>
-    </div>
-    
-    <div class="widget">
-      <h4 class="widget-title">Tag</h4>
-    </div>
-    
-    <div class="widget">
-      <h4 class="widget-title">Social</h4>
-      <ul class="list-inline social-links">
-        
-        <li class="list-inline-item"><a href="https://voracious-scowl-0b0.notion.site/Eunmin-Hwang-13216386b0a943398340579b3d7585af"><i class="ti-bookmark-alt"></i></a></li>
-        
-        <li class="list-inline-item"><a href="#"><i class="ti-instagram"></i></a></li>
-        
-        <li class="list-inline-item"><a href="yesming.github.io"><i class="ti-github"></i></a></li>
-        
-        <li class="list-inline-item"><a href="#"><i class="ti-linkedin"></i></a></li>
-        
-      </ul>
-    </div>
-    
-    <div class="widget">
-      <img src="https://yesming.github.io/images/promotion.png" alt="" class="img-fluid">
-    </div>
-  </div>
-</div>
-
-      
-
-      
-      <div class="col-12 mt-5">
-        
-      </div>
-    </div>
-  </div>
-</section>
-
-
-
-
-<footer class="text-capitalize">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-12 text-center mb-5">
-        <a href="https://yesming.github.io/"><img src="https://yesming.github.io/images/logo.png" alt="자율주행 개발자의 생각"></a>
-      </div>
-               
-      <div class="col-lg-3 col-sm-6 mb-5">
-        <h6 class="mb-4">Contact Me</h6>
-        <ul class="list-unstyled">
-          
-          <li class="mb-3"><a class="text-dark" href="tel:&#43;82%29%2010-6295-8204"><i
-                class="ti-mobile mr-3 text-primary"></i>&#43;82) 10-6295-8204</a></li>
-          
-                     
-          <li class="mb-3"><i class="ti-location-pin mr-3 text-primary"></i>Ulsan, Republic of Korea</li>
-          
-                     
-          <li class="mb-3"><a class="text-dark" href="mailto:yesming.em@gmail.com"><i
-                class="ti-email mr-3 text-primary"></i>yesming.em@gmail.com</a>
-          
-          </li>
-        </ul>
-      </div>
-      
-      <div class="col-lg-3 col-sm-6 mb-5">
-        <h6 class="mb-4">Social Contacts</h6>
-        <ul class="list-unstyled">
-          
-          <li class="mb-3"><a class="text-dark" href="https://voracious-scowl-0b0.notion.site/Eunmin-Hwang-13216386b0a943398340579b3d7585af">notion</a></li>
-          
-          <li class="mb-3"><a class="text-dark" href="#">instagram</a></li>
-          
-          <li class="mb-3"><a class="text-dark" href="yesming.github.io">github</a></li>
-          
-          <li class="mb-3"><a class="text-dark" href="#">linkedin</a></li>
-          
-        </ul>
-      </div>
-      <div class="col-lg-3 col-sm-6 mb-5">
-        <h6 class="mb-4">Categories</h6>
-      </div>
-      <div class="col-lg-3 col-sm-6 mb-5">
-        <h6 class="mb-4">Quick Links</h6>
-        <ul class="list-unstyled">
-          
-          <li class="mb-3"><a class="text-dark" href="https://yesming.github.io/about">About</a></li>
-          
-          <li class="mb-3"><a class="text-dark" href="https://yesming.github.io/blog">Post</a></li>
-          
-          <li class="mb-3"><a class="text-dark" href="https://yesming.github.io/contact">Contact</a></li>
-          
-        </ul>
-      </div>
-      <div class="col-12 border-top py-4 text-center">
-        | copyright © 2021 <a href="https://themefisher.com/hugo-themes/">Themefisher</a> All Rights Reserved |
-      </div>
-    </div>
-  </div>
+        <footer id="footer" class="main-content-wrap">
+  <span class="copyrights">
+    &copy; 2021 자율주행 개발자의 생각. 
+  </span>
 </footer>
 
+      </div>
+    </div>
+    <div id="about">
+  <div id="about-card">
+    <div id="about-btn-close">
+      <i class="fa fa-times"></i>
+    </div>
+    
+      <img id="about-card-picture" src="https://www.gravatar.com/avatar/a834117ef995f2f87c2bc14d5b0a0978?s=110" alt="" />
+    
+    <h4 id="about-card-name">자율주행 개발자의 생각</h4>
+    
+      <div id="about-card-bio">자율주행 알고리즘을 개발하며 드는 생각과 일상을 정리합니다</div>
+    
+    
+      <div id="about-card-job">
+        <i class="fa fa-briefcase"></i>
+        <br/>
+        Autonomous Driving Engineer
+      </div>
+    
+    
+      <div id="about-card-location">
+        <i class="fa fa-map-marker-alt"></i>
+        <br/>
+        Seoul
+      </div>
+    
+  </div>
+</div>
+
+    
+  
+    
+      <div id="cover" style="background-image:url('https://yesming.github.io/images/cover.jpg');"></div>
+    
+  
+
+
+  </body>
+  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/highlight.min.js" integrity="sha512-z+/WWfyD5tccCukM4VvONpEtLmbAm5LDu7eKiyMQJ9m7OfPEDL7gENyDRL3Yfe8XAuGsS2fS4xSMnl6d30kqGQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+<script src="https://yesming.github.io/js/script-yqzy9wdlzix4lbbwdnzvwx3egsne77earqmn73v9uno8aupuph8wfguccut.min.js"></script>
+
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-gE8KAQyFIzV1C9+GZ8TKJHZS2s+n7EjNtC+IMRn1l5+WYJTHOODUM6JSjZhFhqXmc7bG8Av6XXpckA4tYhflnw==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/apache.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-EWROca+bote+7Oaaar1F6y74iZj1r1F9rm/ly7o+/FwJopbBaWtsFDmaKoZDd3QiGU2pGacBirHJNivmGLYrow==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/go.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-GDVzAn0wpx1yVtQsRWmFc6PhJiLBPdUic+h4GWgljBh904O3JU10fk9EKNpVyIoPqkFn54rgL2QBG4BmUTMpiQ==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/http.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-UgZlma8NzkrDb/NWgmLIcTrH7i/CSnLLDRFqCSNF5NGPpjKmzyM25qcoXGOup8+cDakKyaiTDd7N4dyH4YT+IA==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/less.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-lot9koe73sfXIrUvIPM/UEhuMciN56RPyBdOyZgfO53P2lkWyyXN7J+njcxIIBRV+nVDQeiWtiXg+bLAJZDTfg==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/nginx.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-Zd3e7XxHP00TD0Imr0PIfeM0fl0v95kMWuhyAS3Wn1UTSXTkz0OhtRgBAr4JlmADRgiXr4x7lpeUdqaGN8xIog==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/puppet.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-qtqDO052iXMSP+5d/aE/jMtL9vIIGvONgTJziC2K/ZIB1yEGa55WVxGE9/08rSQ62EoDifS9SWVGZ7ihSLhzMA==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/scss.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-1NmkjnEDnwwwcu28KoQF8vs3oaPFokQHbmbtwGhFfeDsQZtVFI8zW2aE9O8yMYdpdyKV/5blE4pSWw4Z/Sv97w==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/stylus.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-B2wSfruPjr8EJL6IIzQr1eAuDwrsfIfccNf/LCEdxELCgC/S/ZMt/Uvk80aD79m7IqOqW+Sw8nbkvha20yZpzg==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/swift.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-28oDiQZGKUVN6wQ7PSLPNipOcmkCALXKwOi7bnkyFf8QiMZQxG9EQoy/iiNx6Zxj2cG2SbVa4dXKigQhu7GiFw==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/yaml.min.js"></script>
+  
+
+
 <script>
-  var indexURL = "https://yesming.github.io/index.json"
+$(document).ready(function() {
+  hljs.configure({ classPrefix: '', useBR: false });
+  $('pre.code-highlight > code, pre > code').each(function(i, block) {
+    if (!$(this).hasClass('codeblock')) {
+      $(this).addClass('codeblock');
+    }
+    hljs.highlightBlock(block);
+  });
+});
 </script>
 
-<!-- JS Plugins -->
-
-<script src="https://yesming.github.io/plugins/jQuery/jquery.min.js"></script>
-
-<script src="https://yesming.github.io/plugins/bootstrap/bootstrap.min.js"></script>
-
-<script src="https://yesming.github.io/plugins/slick/slick.min.js"></script>
-
-<script src="https://yesming.github.io/plugins/venobox/venobox.min.js"></script>
-
-<script src="https://yesming.github.io/plugins/search/fuse.min.js"></script>
-
-<script src="https://yesming.github.io/plugins/search/mark.js"></script>
-
-<script src="https://yesming.github.io/plugins/search/search.js"></script>
-
-<!-- Main Script -->
-
-<script src="https://yesming.github.io/js/script.min.js"></script>
 
 
 
-</body>
 </html>
