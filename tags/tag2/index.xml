@@ -6,7 +6,16 @@
     <description>Recent content in tag2 on 자율주행 개발자의 생각노트</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Mon, 11 Oct 2021 21:59:27 +0900</lastBuildDate><atom:link href="https://yesming.github.io/tags/tag2/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 12 Oct 2021 21:03:23 +0900</lastBuildDate><atom:link href="https://yesming.github.io/tags/tag2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WhoamI</title>
+      <link>https://yesming.github.io/post/whoami/</link>
+      <pubDate>Tue, 12 Oct 2021 21:03:23 +0900</pubDate>
+      
+      <guid>https://yesming.github.io/post/whoami/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Test</title>
       <link>https://yesming.github.io/post/test/</link>
